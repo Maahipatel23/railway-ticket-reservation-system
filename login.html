@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Railway Reservation Login</title>
+</head>
+<body>
+    <h1>IRCTC / RTRS Portal Login</h1>
+    <form action="/login" method="post">
+        <label for="username">Registered Mobile or Email ID</label>
+        <input type="text" id="username" name="username" required placeholder="Enter mobile or email">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required minlength="8" placeholder="At least 8 chars">
+        <p class="notice">Security: Account will be locked for 15 mins after 5 failed attempts (FR-02).</p>
+        <button type="submit">Log in to Book Tickets</button>
+    </form>
+</body>
+</html>
