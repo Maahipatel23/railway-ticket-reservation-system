@@ -7,11 +7,14 @@
 <body>
     <h1>Railway Ticket Reservation System (RTRS)</h1>
     <form action="/login" method="post">
-        <label for="identifier">Email / Mobile Number</label>
-        <input type="text" id="identifier" name="identifier">
+        <label for="identifier">Registered Email or Mobile Number</label>
+        <input type="text" id="identifier" name="identifier" required placeholder="name@domain.com or 10-digit mobile">
+        
         <label for="password">Password</label>
-        <input type="password" id="password" name="password">
-        <button type="submit">Sign In</button>
+        <input type="password" id="password" name="password" required minlength="8" placeholder="Minimum 8 characters">
+        
+        <p class="notice">Security Policy: Account will be locked for 15 minutes after 5 consecutive failed attempts (FR-02).</p>
+        <button type="submit">Log in to Book Tickets</button>
     </form>
 </body>
 </html>
