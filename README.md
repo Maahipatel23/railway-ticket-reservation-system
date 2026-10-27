@@ -11,6 +11,9 @@ A web-based Railway Ticket Reservation System allowing passengers to search trai
 - **FR-09**: PNR Generation & E-Ticket
 - **FR-13 / FR-14**: Ticket Cancellation & Refund Policy
 
+## Authentication Module
+- `login.html`: Basic passenger login form skeleton accepting email or phone number and password.
+
 ## Academic Practical Details
 - **Subject**: Software Engineering
 - **Practical**: Practical 6 - Version Control and Collaborative Development Using Git and GitHub
